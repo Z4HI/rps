@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat+Alternates:ital,wght@0,100;1,400&family=Montserrat:ital,wght@0,100;0,500;1,500&family=Work+Sans:ital,wght@1,200&display=swap');
+
+
 *{
 
     margin: 0;
@@ -11,35 +15,33 @@
     
 }
 .wrapper{
-    
-    display: flex;
-    height: 100vh;
-    width: 100vw;
     justify-content: center;
     align-items: center;
     flex-shrink: 1;
 }
 .contents{
+    height: 100vh;
     color: black;
     display: grid;
-    grid-template-columns:300px 300px;
+    grid-template-columns:1fr 1fr;
     grid-template-rows: 100px 200px 100px;
     text-align: center;
     gap: 30px;  
     justify-content: center;
-    font-family: ;
+    font-family: 'Indie Flower', cursive;
+    margin: 0px 10px;
 }
 .header{
     grid-column: span 2;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgba(126, 126, 126, 0.127) ;
     backdrop-filter: blur(5px);
     border-radius: 40px;
     font-size: 20px;
-
-    
+}
+ #rps{
+    background-color: none;
 }
 .user{
     
@@ -97,8 +99,3 @@ h1{
     cursor: pointer;
     border-radius: 20px;
 }
-
-.header h4{
-    background-color: none;
-}
-

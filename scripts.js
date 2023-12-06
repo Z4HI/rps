@@ -87,6 +87,7 @@ function Color(userChoice,computerChoice){
     if(userscore.innerHTML == '5' ){
         userdisabled.style.pointerEvents = 'none'
         header.innerText = 'You WIN'
+        
     }
     if(computerscore.innerHTML == '5'){
         userdisabled.style.pointerEvents = 'none'
