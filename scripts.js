@@ -86,12 +86,15 @@ function Color(userChoice,computerChoice){
 
     if(userscore.innerHTML == '5' ){
         userdisabled.style.pointerEvents = 'none'
-        header.innerText = 'You WIN'
+        header.innerText = 'You WIN';
+        header.style.backgroundColor = 'green';
+        header.style.transform.scale = '3'
         
     }
     if(computerscore.innerHTML == '5'){
         userdisabled.style.pointerEvents = 'none'
-        header.innerText = 'You LOSE'
+        header.innerText = 'You LOSE';
+        header.style.backgroundColor = 'red';
     }
   }
 
