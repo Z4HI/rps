@@ -12,15 +12,26 @@
     </head>
     <body>
         <div class="bg">
-        <video id="background" autoplay muted loop>
-            <source src="images/mylivewallpapers-com-Anonymous-I-Am-Free-FHD.mp4" type="video/mp4">
-          </video>
         <div class="wrapper">
             <div class="contents">
-                <div class="header">Rock Paper Scissors counter</div>
-                <div class="user">User score</div>
-                <div class="computer">Computer score</div>
-                <div class="menu">Stuff</div>
+                <div class="header"><h1>Rock..Paper..Scissors..SHOOT!</h1></div>
+                <div class="user">
+                    <h1 >Your Score</h1>
+                    <h4 class="userscore">0</h4>
+                    <button class="choice" data-choice="rock" id="rock">✊</button>
+                    <button class="choice" data-choice="paper" id="paper">✋</button>
+                    <button class="choice" data-choice="scissors" id="scissor">✌️</button>
+                </div>
+                <div class = "computer">
+                    <h1>Computer Score</h1>
+                    <h4 class="computerscore">0</h4>
+                    <button class="choice" id="rock1">✊</button>
+                    <button class="choice" id="paper1">✋</button>
+                    <button class="choice" id="scissor1">✌️</button>
+                </div>
+                <div class="menu">
+                    <a href="index.html"><button class="playagain">PLAY AGAIN</button></a>
+                </div>
             </div>
         </div>
     </div>
