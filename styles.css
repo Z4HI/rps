@@ -24,21 +24,27 @@
     color: black;
     display: grid;
     grid-template-columns:1fr 1fr;
-    grid-template-rows: 100px 200px 100px;
+    grid-template-rows:10% 10% 50% 20% ;
     text-align: center;
     gap: 30px;  
     justify-content: center;
     font-family: 'Indie Flower', cursive;
-    margin: 0px 10px;
+    
+}
+.navbar{
+    grid-column: span 2;
+    background-color: wheat;
+    height: 40px;
+    justify-items: center;
+    
 }
 .header{
     grid-column: span 2;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
     backdrop-filter: blur(5px);
     border-radius: 40px;
-    font-size: 20px;
+    font-size: 15px
 }
  #rps{
     background-color: none;
@@ -47,7 +53,8 @@
     
     background-color:rgba(126, 126, 126, 0.127) ;
     backdrop-filter: blur(5px);
-    border-radius: 40px
+    border-radius: 40px;
+    margin-left: 10px;
     
 }
 .computer{
@@ -56,6 +63,7 @@
     backdrop-filter: blur(2px);
     border-radius: 40px;
     pointer-events: none;
+    margin-right: 10px;
 }
 h4{
     font-size:  30px;
@@ -86,6 +94,7 @@ h1{
     transform: scale(1.5);
 }
 .menu{
+    
     grid-column: span 2;
     
 }
